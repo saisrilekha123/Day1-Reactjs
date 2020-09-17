@@ -4,6 +4,32 @@
 	<title>HTML Basics</title>
 </head>
 <body>
+	<div>
+		<audio controls="controls">
+			<source src="song1.mp3" type="audio/mpeg">
+		</audio>
+	</div>
+	<div>
+		<audio controls="controls">
+			<source src="https://www.computerhope.com/jargon/m/example.mp3
+" type="audio/mpeg">
+		</audio>
+	</div>
+	<div>
+		<video controls="controls">
+			<source src="media/cat.mp4" type="">
+		</video>
+	</div>
+	<div>
+		<iframe width="640" height="360" src="https://www.youtube.com/embed/pQN-pnXPaVg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	</div>
+<div>
+	<h2>Map</h2>
+	<iframe src="https://goo.gl/maps/SRz8YbQCcCgRQR5p8"></iframe>
+</div>
+
+	<p>Hello World</p>
 	<h1>APSSDC</h1>
 	<h2>APSSDC</h2>
 	<h3>APSSDC</h3>
@@ -11,7 +37,7 @@
 	<h5>APSSDC</h5>
 	<h6>APSSDC</h6>
 	<p>Hypertext Markup  and scripting languages such as JavaScript</p>
-	<img src="image.png"><br>
+	<img src="images/image.png"><br>
 	<a href="https://www.google.com/">Google</a><br>
 	<input type="text"><br>
 	<input type="password"><br>
@@ -139,11 +165,12 @@
 		<div>
 			<form>
 				<label>UserName</label><br>
-				<input type="text" name="username"><br>
+				<input type="text" name="username" placeholder="user name"><br>
 				<label>Password</label><br>
-				<input type="password" name="username"><br>
+				<input type="password" name="username" placeholder="password"><br>
 				<label>Email</label><br>
-				<input type="email" name="username">
+				<input type="email" name="username" placeholder="email id"><br>
+				<button>submit</button>
 			</form>
 		</div>
 </body>
